@@ -1,0 +1,76 @@
+/* PC */
+@media (min-width: 1024px) {
+    #mobile-menu {
+        display: none;
+    }
+}
+
+/* Tablet and mobile */
+@media (max-width: 1023px)  {
+    .btn {
+        font-size: 16px;
+        padding: 16px 26px;
+    }
+    ul.footer-social-links li {
+        margin:0 16px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #mobile-menu {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .col2 {
+        width: 100% !important;
+        margin-bottom: 16px;
+    }
+
+    .col3 {
+        width: 100% !important;
+    }
+
+    .s-w100 {
+        width: 100% !important;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #mobile-menu {
+        width: 100%;
+        background: #000;
+        position: fixed;
+        top: 0px;
+        overflow: hidden;
+        height: 46.5px;
+    }
+    
+    #mobile-menu.toogleON {
+        height: auto;
+    }
+
+    #mobile-menu ul li {
+        padding: 12px 24px;
+    }
+
+    #mobile-menu a {
+        text-transform: uppercase;
+        color: #fff;
+        display: block;
+    }
+
+    #nav-toogle-menu {
+        position: fixed;
+        top: 0px;
+        right: 0;
+        padding: 12px 24px;
+        background: #ccc;
+        color: #000 !important;
+    }
+}
